@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 30%; /* Ajusta la posición vertical del h1 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F5F7;
+    font-family: "Segoe Script", "Brush Script MT", cursive;
+    font-size: 5em;
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 1; /* Asegura que el h1 esté por encima del h2 */
+}
+
+h2 {
+    position: absolute;
+    top: 50%; /* Centrar verticalmente */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F6F7;
+    font-family: "Segoe Script", "Brush Script MT", cursive;;
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Asegura que el h2 esté por encima del canvas */
+}
+
+
+
+
+
