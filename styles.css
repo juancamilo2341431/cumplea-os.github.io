@@ -31,7 +31,26 @@ h2 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1; /* Asegura que el h2 esté por encima del canvas */
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
 
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Media query para tabletas */
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
 
 
 
